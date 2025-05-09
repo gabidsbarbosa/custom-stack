@@ -1,11 +1,12 @@
 # Installing Dependencies
 ```sh
 python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 
 # Test Execution
 ```sh
-python -m pytest ./test/* --cov
+pytest test/
 ```
