@@ -10,3 +10,9 @@ pip install -r requirements.txt
 ```sh
 pytest test/
 ```
+
+# mOck Test Execution
+
+```sh
+pytest test mock
+```
